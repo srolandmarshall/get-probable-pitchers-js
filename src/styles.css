@@ -1,3 +1,29 @@
 body {
   font-family: sans-serif;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+  flex: 1;
+  margin: 2%;
+}
+
+#today {
+  background-color: #d6f0fc;
+}
+#tomorrow {
+  background-color: #f2f2f2;
+}
