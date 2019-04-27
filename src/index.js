@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const axios = require("axios");
 const cheerio = require("cheerio");
 
